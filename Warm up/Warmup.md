@@ -2,21 +2,21 @@
 
 
 
-​	Challenge cho một file pe CTF.exe , mình kiểm tra bằng phần mềm Detect It Easy cho biết đây là một file PE64.
+​		Challenge cho một file pe CTF.exe , mình kiểm tra bằng phần mềm Detect It Easy cho biết đây là một file PE64.
 
 ![](DIE.png)
 
-​	Mình thử chạy file , cho kết quả như sau:
+​		Mình thử chạy file , cho kết quả như sau:
 
 <img src="RunPe.png" alt="RunPe.png" style="zoom:150%;" />
 
-​	Tiến hành load file vào IDA64. Ta thấy đầu tiên file PE tiến hành gọi hàm puts và puts chuỗi string *"Crack me bro:"* ra màn hình. Sau đó, chương trình gọi fgets để lấy input người dùng nhập vào rồi lưu vào biến Buffer. Chuỗi buffer được đưa vào một hàm biến đổi như dưới đây.
+​		Tiến hành load file vào IDA64. Ta thấy đầu tiên file PE tiến hành gọi hàm puts và puts chuỗi string *"Crack me bro:"* ra màn hình. Sau đó, chương trình gọi fgets để lấy input người dùng nhập vào rồi lưu vào biến Buffer. Chuỗi buffer được đưa vào một hàm biến đổi như dưới đây.
 
 ![](ida.png)
 
 
 
-​	Chuỗi Buffer được người dùng nhập vào sau khi biến đâu sẽ so sánh với chuỗi *"mkO5kb_sc_Dr4D_iYe?"* , nếu so khớp sẽ đưa ra thông báo chúc mừng. Mình thấy bài này có khá nhiều người làm được nên mình sẽ show đoạn scirpt mình dùng để giải bài này luôn.
+​		Chuỗi Buffer được người dùng nhập vào sau khi biến đổi sẽ so sánh với chuỗi *"mkO5kb_sc_Dr4D_iYe?"* , nếu so khớp sẽ đưa ra thông báo chúc mừng. Mình thấy bài này có khá nhiều người làm được nên mình sẽ show đoạn scirpt mình dùng để giải bài này luôn.
 
 ```
 out="mkO5kb_sc_Dr4D_iYe?"
