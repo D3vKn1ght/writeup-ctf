@@ -1,4 +1,4 @@
-​										![challenge.png](challenge.png)
+										![challenge.png](challenge.png)
 
 ​		Đề bài cho một file zip, giải nén ra ta được 3 file như dưới đây. 
 
@@ -161,7 +161,7 @@ if __name__ == '__main__':
 
 ​		Ta tìm được chuỗi 1234. Ta tạo một mật khẩu thỏa mãn điều kiện của chương trình để giải mã file secret.txt.mta.
 
-​		![](flag.png)
+​			![](flag.png)
 
 
 
