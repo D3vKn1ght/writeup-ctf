@@ -6,7 +6,7 @@
 
 ​		Nhìn biểu tượng con rắn ở file *PassForNotePad.exe* và dung lượng file khá lớn ta đóan ngay đây là một chương trình python được biên dịch ra file exe.
 
-​		Ta xem thử các file khác xem thế nào, thì file README.txt hướng dẫn cách sử dụng chương trình gồm -d đẻ giả mã và -e để mã hóa và mật khẩu ít nhất 8 kí tự.
+​		Ta xem thử các file khác xem thế nào, thì file README.txt hướng dẫn cách sử dụng chương trình gồm -d đẻ giả mã và -e để mã hóa và mật khẩu ít  nhất 8 kí tự.
 
 ​								![](secretMta.png)
 
