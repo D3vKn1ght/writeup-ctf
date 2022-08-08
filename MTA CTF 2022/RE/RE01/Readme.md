@@ -16,7 +16,7 @@
 
 ![](TLS_detail.png)
 
-​		Mình thấy hint 'MSEC Task' nên đoán chương trình chứa flag ở đây. Tiến hành đặt breakpoint ở hàm này xem xét thử.
+​		Mình thấy hint 'MSEC Task' nên đoán chương trình chứa flag ở đây. Tiến hành đặt breakpoint ở hàm  TLS_Callback này xem xét thử.
 
 
 
