@@ -1,4 +1,4 @@
-										![challenge.png](challenge.png)
+​				![](challenge.png)
 
 ​		Đề bài cho một file zip, giải nén ra ta được 3 file như dưới đây. 
 
