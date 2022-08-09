@@ -1,4 +1,4 @@
-​					![](Challenge.png)
+					![](Challenge.png)
 
 ​		Đề bài cho một file đuôi DMP, xem dung lượng của file khá lớn.
 
@@ -45,10 +45,7 @@
 
 
 ```
-from Crypto.Util.Padding import pad, unpad
 from Crypto.Cipher import AES
-from Crypto.Random import get_random_bytes
-import struct
 
 buffer=[  0x20, 0x24, 0x95, 0x5E, 0x32, 0xD5, 0x82, 0x43, 0x0F, 0x92, 
   0xC4, 0xD8, 0x39, 0xBC, 0xC9, 0x56, 0xFD, 0x13, 0x9B, 0xB0, 
